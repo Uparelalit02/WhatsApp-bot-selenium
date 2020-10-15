@@ -3,9 +3,9 @@
 # Can save contact with their phone Number
 
 # Import required packages
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium import webdriver #pip install selenium
+from selenium.webdriver.support.ui import WebDriverWait #pip install webdriver- go to (https://sites.google.com/a/chromium.org/chromedriver/downloads)
+from selenium.webdriver.support import expected_conditions as EC  
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import datetime
